@@ -302,12 +302,13 @@ img {
     fill: #188CE8;
 }
 .contact-us-textarea {
-    height: 120px;
+    min-height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
     resize: none;
     box-sizing: border-box;
+    margin-bottom: 20px;
 }
 .contact-us-textarea:focus-within {
     outline: none;
@@ -332,9 +333,7 @@ textarea::placeholder {
     /* fill: #212121; */
 
 }
-.contact-us-textarea {
-    margin-bottom: 20px;
-}
+
 .checkbox-label {
     position: relative;
     font-size: 14px;
