@@ -25,7 +25,8 @@
             <nav class="flex">
                 <a class="logo" href="./index.html"><span class="span-l">Web</span>Studio</a>
                 <ul class="flex">
-                    <li class="decor-studio"><a class="studio studio-activ" href="./index.html">Студия</a>
+                    <li class="decor-studio">
+                        <a class="studio studio-activ" href="./index.html">Студия</a>
                     </li>
                     <li class="item">
                         <a class="studio" href="./portfolio.html">Портфолио</a>
@@ -38,15 +39,15 @@
             <ul class="flex">
                 <li>
                     <a class="nav-header-contacts" href="mailto:info@devstudio.com">
-                        <svg class="contacts-icon">
-                            <use href="./images/spryte.svg#icon-envelope"></use>
-                        </svg>info@devstudio.com</a>
+                    <svg class="contacts-icon">
+                        <use href="./images/spryte.svg#icon-envelope"></use>
+                    </svg>info@devstudio.com</a>
                 </li>
                 <li class="item">
                     <a class="nav-header-contacts" href="tel:+380961111111">
-                        <svg class="contacts-icon">
-                            <use href="./images/spryte.svg#icon-smartphone"></use>
-                        </svg> +38 096 111 11 11</a>
+                    <svg class="contacts-icon">
+                        <use href="./images/spryte.svg#icon-smartphone"></use>
+                    </svg> +38 096 111 11 11</a>
 
                 </li>
             </ul>
@@ -57,14 +58,11 @@
         <section class="hero">
             <div class="hero-orientation">
                 <h1 class="ferst-header">Эффективные решения для вашего бизнеса</h1>
-
                 <button data-modal-open type="button" class="hero-button">Заказать услугу</button>
-           
                 <div  class="backdrop is-hidden" data-modal>
-                
                     <div class="modal"> 
                         <div class="modal-clouse-pseudo-btn" data-modal-close></div>
-                       <form class="form" action="" >
+                       <form class="form">
                             <p class="form-header">Оставьте свои данные, мы вам перезвоним</p>
 
                             <div class="form-container">
@@ -73,8 +71,8 @@
                                 <span class="input-label-decor">
                                     <svg class="username-icon">
                                     <use href="./images/form.svg#icon-person-black"></use>
-                                </svg> 
-                                
+                                    </svg> 
+                                </span>
                             </div>
 
                             <div class="form-container">
@@ -86,6 +84,7 @@
                                     </svg>
                                 </span>
                             </div>
+
                             <div class="form-container">
                                 <label for="contact-us-email" class="input-label">Почта</label>
                                 <input class="contact-us-input" type="email" name="email" id="contact-us-email">
@@ -95,30 +94,25 @@
                                     </svg>
                                 </span>
                             </div>
-                           
                             
                             <label for="contact-us-feedback" class="input-label">Комментарий</label>
-                            <textarea class="contact-us-textarea" class="contact-us-textarea" name="feedback" id="contact-us-feedback"    placeholder="Введите текст"></textarea>
+                            <textarea class="contact-us-textarea" name="feedback" id="contact-us-feedback" placeholder="Введите текст"></textarea>
                             
-                        
                             <label class="checkbox-label" for="checkbox-1">
-                               
                                 <input class="checkbox-input" type="checkbox" id="checkbox-1" />
                                 <span class="custom-checkbox">
                                     <svg class="label-svg">
-                                   <use href="./images/form.svg#icon-vector"></use>
+                                        <use href="./images/form.svg#icon-vector"></use>
                                     </svg> 
                                </span>
                                 Соглашаюсь с рассылкой и принимаю <a class="contact-us-checkbox-link" href="#">Условия договора</a>
-
                             </label>
                             
                             <button class="contact-us-btn" type="submit">Отправить</button>
                        </form>
-                    </div>
-                    
-                
+                    </div> 
                 </div>
+            </div>
         </section>
         <!-- Особенности -->
         <section class="our-peculiarities">
@@ -134,7 +128,8 @@
                         </div>
                         <h3 class="peculiar-header">Внимание к деталям</h3>
                         <p class="peculiar-discribtion">Идейные соображения, а также <br> начало повседневной работы по
-                            формированию позиции.</p>
+                            формированию позиции.
+                        </p>
                     </li>
                     <li>
                         <div class="our-peculiarities-itemdecor">
@@ -144,7 +139,8 @@
                         </div>
                         <h3 class="peculiar-header">Пунктуальность</h3>
                         <p class="peculiar-discribtion">Задача организации, в особенности <br> же рамки и место обучения
-                            кадров влечет за собой.</p>
+                            кадров влечет за собой.
+                        </p>
                     </li>
                     <li>
                         <div class="our-peculiarities-itemdecor">
@@ -154,8 +150,8 @@
                         </div>
                         <h3 class="peculiar-header">Планирование</h3>
                         <p class="peculiar-discribtion">Равным образом консультация с широким активом в значительной
-                            степени
-                            обуславливает.</p>
+                            степени обуславливает.
+                        </p>
                     </li>
                     <li>
                         <div class="our-peculiarities-itemdecor">
@@ -165,8 +161,8 @@
                         </div>
                         <h3 class="peculiar-header">Современные технологии</h3>
                         <p class="peculiar-discribtion">Значимость этих проблем настолько очевидна, что реализация
-                            плановых
-                            заданий.</p>
+                            плановых заданий.
+                        </p>
                     </li>
                 </ul>
             </div>
@@ -447,16 +443,14 @@
             
                 <input class="footer-email-input" type="email" placeholder="E-mail">
                 <button class="footer-btn" type="submit">
-                    <div class="footer-btn-contant">
-                        <span>Подписаться</span>
-                        <svg class="footer-btn-decor">
-                            <use href="./images/form.svg#icon-send"></use>
-                        </svg>
-                </div>
+                        <span class="footer-btn-contant">Подписаться
+                            <svg class="footer-btn-decor">
+                                <use href="./images/form.svg#icon-send"></use>
+                            </svg>
+                        </span>  
                 </button>
             </div>
         </div>
-
     </footer>
     <script src="./js/modal.js"></script>
 </body>
